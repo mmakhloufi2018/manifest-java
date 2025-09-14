@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: simoha.azurecr.io/front:latest   # remplacé par sed
+          image: simoha.azurecr.io/front:4e7d93f66fd328c633ca480d82decda08a3639c1
           ports:
             - containerPort: 80
 ---

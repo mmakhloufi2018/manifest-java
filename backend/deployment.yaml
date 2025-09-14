@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: simoha.azurecr.io/backend:latest   # remplacé par sed
+          image: simoha.azurecr.io/backend:4e7d93f66fd328c633ca480d82decda08a3639c1
           ports:
             - containerPort: 8080
           env:
