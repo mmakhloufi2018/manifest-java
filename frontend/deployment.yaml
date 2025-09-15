@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: simoha.azurecr.io/front:4e7d93f66fd328c633ca480d82decda08a3639c1
+          image: simoha.azurecr.io/front:57a64c7ada0788e7eadb33f2fcecade2a6b7976b
           ports:
             - containerPort: 80
 ---
