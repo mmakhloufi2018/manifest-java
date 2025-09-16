@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: simoha.azurecr.io/front:57a64c7ada0788e7eadb33f2fcecade2a6b7976b
+          image: simoha.azurecr.io/front:dev
           ports:
             - containerPort: 80
 ---
@@ -30,4 +30,5 @@ spec:
   ports:
     - port: 80
       targetPort: 80
+
   type: ClusterIP
