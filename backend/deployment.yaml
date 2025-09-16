@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: simoha.azurecr.io/backend:57a64c7ada0788e7eadb33f2fcecade2a6b7976b
+          image: simoha.azurecr.io/backend:dev
           ports:
             - containerPort: 8080
           env:
@@ -37,4 +37,5 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
+
   type: ClusterIP
